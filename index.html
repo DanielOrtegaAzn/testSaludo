@@ -13,7 +13,7 @@
     <a-scene xr-mode-ui="XRMode: xr;">
 
         <a-assets timeout="30000">
-            <a-asset-item id="Avatar" src="Avatar.glb"></a-asset-item>
+            <a-asset-item id="avatar" src="avatar.glb"></a-asset-item>
         </a-assets>
 
         <a-entity light="type: ambient; intensity: 1"></a-entity>
@@ -22,7 +22,7 @@
         <a-plane rotation="-90 0 0" width="4" height="4" color="#999"></a-plane>
 
 
-        <a-entity gltf-model="Avatar" rotation="0 0 0" scale="1 1 1" animation-mixer="clip: *; loop: repeat">
+        <a-entity gltf-model="avatar" rotation="0 0 0" scale="1 1 1" animation-mixer="clip: *; loop: repeat">
         </a-entity>
         <a-entity camera look-controls position="0 1.6 3"></a-entity>
     </a-scene>
